@@ -1,0 +1,16 @@
+# Format: clock  timeReq  slackR/slackF  holdR/holdF  instName/pinName   # cycle(s)
+clk(R)->clk(R)	0.496    */-0.260        */0.004         door_timer_reg[0]/D    1
+clk(R)->clk(R)	0.476    -0.193/*        0.024/*         door_timer_reg[7]/D    1
+clk(R)->clk(R)	0.477    -0.140/*        0.023/*         door_timer_reg[6]/D    1
+clk(R)->clk(R)	0.476    -0.138/*        0.024/*         door_timer_reg[3]/D    1
+clk(R)->clk(R)	0.476    -0.137/*        0.024/*         door_timer_reg[1]/D    1
+clk(R)->clk(R)	0.476    -0.134/*        0.024/*         door_timer_reg[5]/D    1
+clk(R)->clk(R)	0.476    -0.125/*        0.024/*         door_timer_reg[2]/D    1
+clk(R)->clk(R)	0.475    -0.124/*        0.025/*         door_timer_reg[4]/D    1
+clk(R)->clk(R)	0.373    */-0.116        */0.127         Door_Alert_reg/ENN    1
+clk(R)->clk(R)	0.475    3.146/*         0.025/*         Complete_reg/D    1
+clk(R)->clk(R)	0.498    */3.221         */0.002         Direction_reg/D    1
+clk(R)->clk(R)	0.473    3.464/*         0.027/*         Out_Current_Floor_reg[0]/D    1
+clk(R)->clk(R)	0.468    */3.491         */0.032         Out_Current_Floor_reg[1]/D    1
+clk(R)->clk(R)	0.487    */3.507         */0.013         Out_Current_Floor_reg[2]/D    1
+clk(R)->clk(R)	0.472    */3.509         */0.028         Out_Current_Floor_reg[3]/D    1
