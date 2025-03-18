@@ -20,7 +20,7 @@ module Elevator_Controller (
         if (reset) begin
             Out_Current_Floor <= In_Current_Floor; // Reset to initial floor
             Direction <= 0;  // Reset direction
-            Complete <= 0;   // Reset complete signal
+            Complete <= 1;   // Reset complete signal (ELEVATOR STOP)
             Door_Alert <= 0; // Reset door alert
             Weight_Alert <= 0; // Reset weight alert
             door_timer <= 0; // Reset door timer
@@ -60,7 +60,7 @@ module Elevator_Controller (
                     Complete <= 1; // Target floor reached
                 end
             end else begin
-                Complete <= 0; // Reset complete if any condition blocks movement
+                Complete <= 0; //MOVE ELEVATOR
             end
         end
     end
